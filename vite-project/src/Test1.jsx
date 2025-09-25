@@ -33,6 +33,7 @@ const Test1 = () => {
                 <h1>errro ocuured..</h1>
             </div>
         }
+        console.log(final)
         return(
             <div>
                 <h1>name is here:{final[0].data?.name||"no name found"}</h1>
